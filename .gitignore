@@ -1,2 +1,7 @@
 .iml
 **/javadoc
+
+/.settings/org.eclipse.core.resources.prefs
+/bin/
+.classpath
+.project
