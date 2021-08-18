@@ -12,9 +12,6 @@
 package com.lixia.rdp;
 
 import java.awt.datatransfer.DataFlavor;
-import java.util.StringTokenizer;
-
-import com.lixia.rdp.Utilities;
 
 public class Utilities_Localised extends Utilities {
 

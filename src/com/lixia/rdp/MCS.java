@@ -14,8 +14,6 @@ package com.lixia.rdp;
 import java.io.*;
 import java.net.*;
 
-import javax.swing.JPanel;
-
 import com.lixia.rdp.crypto.CryptoException;
 import com.lixia.rdp.rdp5.VChannels;
 

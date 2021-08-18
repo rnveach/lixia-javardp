@@ -14,9 +14,7 @@ package com.lixia.rdp.rdp5.cliprdr;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Transferable;
-import java.io.UnsupportedEncodingException;
 
-import com.lixia.rdp.Common;
 import com.lixia.rdp.RdpPacket;
 import com.lixia.rdp.Utilities_Localised;
 

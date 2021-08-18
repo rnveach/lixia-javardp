@@ -14,7 +14,6 @@ package com.lixia.rdp;
 import java.io.*;
 import java.net.*;
 
-import com.lixia.rdp.RdesktopSwing;
 import com.lixia.rdp.crypto.*;
 import com.lixia.rdp.rdp5.VChannels;
 

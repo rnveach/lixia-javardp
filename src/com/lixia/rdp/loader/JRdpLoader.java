@@ -16,7 +16,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-import com.lixia.rdp.Common;
 import com.lixia.rdp.OrderException;
 //import com.lixia.rdp.Rdesktop;
 import com.lixia.rdp.RdesktopException;

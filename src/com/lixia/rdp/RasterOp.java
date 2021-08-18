@@ -14,8 +14,6 @@
 package com.lixia.rdp;
 
 
-import java.awt.image.BufferedImage;
-
 import org.apache.log4j.Logger;
 
 public class RasterOp {

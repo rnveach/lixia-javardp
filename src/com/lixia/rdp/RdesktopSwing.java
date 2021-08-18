@@ -14,12 +14,8 @@ package com.lixia.rdp;
 import java.io.InputStream;
 import java.lang.reflect.Method;
 import java.net.*;
-import java.util.ArrayList;
-import java.util.Timer;
 import java.awt.*;
 
-import com.lixia.rdp.Options;
-import com.lixia.rdp.RdesktopJPanel;
 import com.lixia.rdp.keymapping.KeyCode_FileBased;
 import com.lixia.rdp.rdp5.Rdp5JPanel;
 import com.lixia.rdp.rdp5.VChannel;

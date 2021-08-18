@@ -14,7 +14,6 @@ package com.lixia.rdp.rdp5.cliprdr;
 import java.awt.Frame;
 import java.awt.Image;
 import java.awt.MediaTracker;
-import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.awt.image.ImageObserver;

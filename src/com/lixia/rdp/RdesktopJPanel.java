@@ -14,9 +14,7 @@ package com.lixia.rdp;
 
 import java.awt.*;
 import java.awt.image.*;
-import java.lang.reflect.InvocationTargetException;
 
-import com.lixia.rdp.RdesktopSwing;
 import com.lixia.rdp.keymapping.KeyCode;
 import com.lixia.rdp.keymapping.KeyCode_FileBased;
 import com.lixia.rdp.orders.*;

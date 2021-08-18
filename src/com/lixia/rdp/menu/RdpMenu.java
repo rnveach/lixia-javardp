@@ -19,9 +19,7 @@ import java.awt.MenuBar;
 import java.awt.MenuItem;
 
 import com.lixia.rdp.Common;
-import com.lixia.rdp.Options;
 import com.lixia.rdp.RdesktopJFrame;
-import com.lixia.rdp.InputJPanel;
 import com.lixia.rdp.RdesktopJPanel;
 
 public class RdpMenu extends MenuBar {

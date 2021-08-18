@@ -16,7 +16,6 @@ import java.lang.reflect.Array;
 
 import org.apache.log4j.Logger;
 
-import com.lixia.rdp.InputJPanel;
 import com.lixia.rdp.MCS;
 import com.lixia.rdp.Options;
 import com.lixia.rdp.RdesktopException;

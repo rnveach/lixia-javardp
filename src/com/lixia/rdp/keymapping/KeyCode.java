@@ -11,9 +11,6 @@
  */
 package com.lixia.rdp.keymapping; 
 
-import org.apache.log4j.*;
-import java.awt.event.*;
-
 public class KeyCode
 {
     /**

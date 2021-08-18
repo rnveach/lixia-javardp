@@ -5,7 +5,6 @@ import java.io.UnsupportedEncodingException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 
-import com.lixia.rdp.Options;
 import com.lixia.rdp.RdesktopException;
 import com.lixia.rdp.RdpPacket;
 import com.lixia.rdp.RdpPacket_Localised;
