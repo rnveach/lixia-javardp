@@ -19,7 +19,6 @@ import java.awt.datatransfer.Transferable;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.io.IOException;
-import java.util.Iterator;
 
 import org.apache.log4j.Logger;
 
@@ -192,9 +191,7 @@ public class ClipChannel extends VChannel implements ClipInterface, ClipboardOwn
 		s.setLittleEndian16(CLIPRDR_REQUEST);
 		s.setLittleEndian32(number_of_formats * 36);
 		
-		TypeHandler handler = null;
-		for(Iterator i = availableFormats.iterator(); i.hasNext();){
-			handler = (TypeHandler) i.next();
+		for(TypeHandler handler : availableFormats){
 			s.setLittleEndian32(handler.preferredFormat());
 			s.incrementPosition(32);
 		}
@@ -226,7 +223,6 @@ public class ClipChannel extends VChannel implements ClipInterface, ClipboardOwn
 	{
 		int format = data.getLittleEndian32();
 		Transferable clipData = clipboard.getContents(this);
-		byte[] outData = null;
 		
 		TypeHandler outputHandler = allHandlers.getHandlerForFormat(format);
 		if(outputHandler != null){
@@ -320,13 +316,6 @@ public class ClipChannel extends VChannel implements ClipInterface, ClipboardOwn
 	}
 
 	public void focusLost(FocusEvent arg0) {}
-
-	/*
-	 * Support methods
-	 */
-	private void reset_bool(boolean[] x){
-		for(int i = 0; i < x.length; i++) x[i] = false;
-	}
 	
 	/*
 	 * ClipboardOwner methods

@@ -33,7 +33,7 @@ public abstract class InputJPanel {
     
 	KeyCode_FileBased newKeyMapper = null;
 
-	protected Vector pressedKeys;
+	protected Vector<Integer> pressedKeys;
 
 	protected static boolean capsLockOn = false;
 	protected static boolean numLockOn = false;
@@ -104,7 +104,7 @@ public abstract class InputJPanel {
 		if (Options.debug_keyboard)
 			logger.setLevel(Level.DEBUG);
 		addInputListeners();
-		pressedKeys = new Vector();
+		pressedKeys = new Vector<Integer>();
 	}
 
     /**
@@ -127,7 +127,7 @@ public abstract class InputJPanel {
 		if (Options.debug_keyboard)
 			logger.setLevel(Level.DEBUG);
 		addInputListeners();
-		pressedKeys = new Vector();
+		pressedKeys = new Vector<Integer>();
 	}
 
     /**

@@ -13,7 +13,6 @@ package com.lixia.rdp;
 
 import java.awt.event.KeyEvent;
 import java.io.InputStream;
-import java.util.HashMap;
 
 import com.lixia.rdp.keymapping.KeyCode_FileBased;
 import com.lixia.rdp.keymapping.KeyMapException;
@@ -21,8 +20,6 @@ import com.lixia.rdp.keymapping.KeyMapException;
 
 public class KeyCode_FileBased_Localised extends KeyCode_FileBased {
 
-	private HashMap keysCurrentlyDown = new HashMap();
-	
 	/**
 	 * @param fstream
 	 * @throws KeyMapException
