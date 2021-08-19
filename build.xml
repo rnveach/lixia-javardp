@@ -99,7 +99,7 @@
       </manifest>
       <fileset dir="${build.dir}" includes="**/*.class, **/*.properties"/>
       <fileset dir="${build.dir}1.6" includes="**/*.class, **/*.PNG"/>
-      <fileset dir="${basedir}/" includes="keymaps/*"/>
+      <fileset dir="${basedir}/resources/" includes="keymaps/*"/>
       <zipfileset src="${java.log4j12.package}/${jar.log4j.java12}" excludes="META-INF/*"/>
       <zipfileset src="${java.getopt.package}/${jar.gnugetopt}" excludes="META-INF/*"/>
       <zipfileset src="${javardp-wsclient.package}/${javardp-wsclient.jar}" excludes="META-INF/*"/>

@@ -14,10 +14,10 @@
     <mkdir dir="${build.dir}1.6"/>
     <mkdir dir="${dist.dir}" />
      
-    <mkdir dir="${build.dir}/keymaps"/>
+    <mkdir dir="${build.dir}/resources/keymaps"/>
     
-    <copy todir="${build.dir}/keymaps">
-        <fileset dir="${basedir}/keymaps" />
+    <copy todir="${build.dir}/resources/keymaps">
+        <fileset dir="${basedir}/resources/keymaps" />
     </copy>
   </target>
 
@@ -62,9 +62,9 @@
   </target>
   
   <target name="jar-common">
-	<copy toDir="${build.dir}/keymaps"
+	<copy toDir="${build.dir}/resources/keymaps"
           filtering="true">
-      <fileset dir="${basedir}/keymaps"/>
+      <fileset dir="${basedir}/resources/keymaps"/>
     </copy>
     <jar jarfile="${dist.dir}/${jar.path}" basedir="${build.dir}/"/>
     <jar jarfile="${dist.dir}/${jar.path.16}" basedir="${build.dir}1.6/"/>
